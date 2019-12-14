@@ -135,3 +135,10 @@ n statistics, the mean squared error (MSE) or mean squared deviation (MSD) of an
 The mse of the three models are shown as above.
 
 (*We only include significant findings in this paragraph, other explorations can be found in the notebook* `model-training.ipynb`)
+
+
+
+# Contributors
+
+Thanks to [lukkyzhou](https://github.com/luckkyzhou/), [suoigwg](https://github.com/suoigwg), [HelperInCa](https://github.com/HelperInCa) !
+
