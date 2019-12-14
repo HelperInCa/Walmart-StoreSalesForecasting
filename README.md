@@ -1,4 +1,22 @@
+Table of Contents
+=================
 
+   * [Walmart: Store Sales Forecasting](#walmart-store-sales-forecasting)
+      * [The Problem](#the-problem)
+         * [Dataset](#dataset)
+            * [Summary](#summary)
+            * [Data analysis](#data-analysis)
+         * [Methods](#methods)
+            * [Data preprocessing](#data-preprocessing)
+               * [Reading the data](#reading-the-data)
+               * [Preprocessing](#preprocessing)
+               * [Train-valid split:](#train-valid-split)
+               * [Fine-tuning hyper-parameters:](#fine-tuning-hyper-parameters)
+            * [KNN:](#knn)
+            * [Random Forest:](#random-forest)
+            * [Extra Trees:](#extra-trees)
+         * [Results](#results)
+   * [Contributors](#contributors)
 
 # Walmart: Store Sales Forecasting
 
@@ -31,7 +49,7 @@ In addition, Walmart runs several promotional markdown events throughout the yea
 
 We perform some common techniques and found several patterns in the dataset.
 
-##### Firstly, we tried to observe the distribution of the dataset
+Firstly, we tried to observe the distribution of the dataset
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9rpcph1r5j30fr0a8dfv.jpg)
 
@@ -67,7 +85,7 @@ We use three methods to analyze this problem. They are KNN, Random Forest and Ex
 
 ####  Data preprocessing
 
-##### Reading the data:
+##### Reading the data
 
 Reading the data from train.csv, features.csv, stores.csv, test.csv.
 
